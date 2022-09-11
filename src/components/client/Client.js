@@ -11,7 +11,7 @@ import { cities } from "../../util/Cities";
 import { Button, Modal } from "react-bootstrap";
 import MaterialTable from "@material-table/core";
 import { ExportCsv, ExportPdf } from "@material-table/exporters";
-import { Delete, Edit } from "@material-ui/icons";
+import { Edit } from "@material-ui/icons";
 
 function Client() {
   const [cinemaList, setCinemaList] = useState([]);
